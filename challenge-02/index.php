@@ -5,7 +5,6 @@ function noIterate($strArr)
     $n = $strArr[0];
     $k = $strArr[1];
 
-    // Contar los caracteres requeridos en K
     $charCountK = array_count_values(str_split($k));
     $required = count($charCountK);
 
